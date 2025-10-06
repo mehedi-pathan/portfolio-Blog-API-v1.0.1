@@ -36,7 +36,8 @@ export async function fetchMarkdownFiles(): Promise<LocalFile[]> {
  */
 export async function fetchMarkdownFileContent(filename: string): Promise<string> {
   try {
-    const filePath = path.join(POSTS_DIRECTORY, filename)
+    const filePath = path.join(POSTS_DIRECTORY, path.basename(filename))
+    console.log("Fetching Markdown file:", filename, "from", POSTS_DIRECTORY)
     const content = await fs.readFile(filePath, "utf-8")
     return content
   } catch (error) {
