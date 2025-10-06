@@ -17,7 +17,7 @@ export async function GET(request: NextRequest) {
     const tag = searchParams.get("tag")
     const page = Number.parseInt(searchParams.get("page") || "1", 10)
     const perPage = Number.parseInt(searchParams.get("perPage") || "10", 10)
-    const includeContent = searchParams.get("includeContent") === "true"
+    const includeContent = searchParams.get("includeContent") !== "false"
 
     // Fetch all posts
     let posts = await getAllPosts()
