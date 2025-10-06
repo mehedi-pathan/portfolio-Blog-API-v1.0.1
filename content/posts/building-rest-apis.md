@@ -1,9 +1,10 @@
 ---
 title: "Building RESTful APIs: Best Practices"
-date: "2024-01-25"
+date: "2025-01-25"
 tags: ["api", "rest", "backend", "nodejs"]
 coverImage: "/placeholder.svg?height=400&width=800"
 excerpt: "Learn how to design and build robust RESTful APIs following industry best practices. Covers authentication, error handling, versioning, and more."
+
 ---
 
 # Building RESTful APIs: Best Practices

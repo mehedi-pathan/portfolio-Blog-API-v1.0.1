@@ -1,6 +1,6 @@
 ---
 title: "Mastering TypeScript: A Complete Guide"
-date: "2024-01-20"
+date: "2025-01-20"
 tags: ["typescript", "javascript", "programming"]
 coverImage: "/placeholder.svg?height=400&width=800"
 excerpt: "Dive deep into TypeScript and learn how to write type-safe, maintainable code. From basics to advanced patterns, this guide has you covered."

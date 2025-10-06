@@ -27,7 +27,8 @@ export async function getAllPosts(): Promise<BlogPost[]> {
 
   const posts = await Promise.all(
     files.map(async (file) => {
-      const content = await fetchMarkdownFileContent(file.path)
+      // const content = await fetchMarkdownFileContent(file.path)
+      const content = await fetchMarkdownFileContent(file.name)
       const slug = file.name.replace(/\.md$/, "")
       return parseMarkdown(content, slug)
     }),

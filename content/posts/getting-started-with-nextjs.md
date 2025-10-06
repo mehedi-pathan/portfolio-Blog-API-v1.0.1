@@ -1,6 +1,6 @@
 ---
 title: "Getting Started with Next.js 15"
-date: "2024-01-15"
+date: "2025-01-15"
 tags: ["nextjs", "react", "tutorial"]
 coverImage: "/placeholder.svg?height=400&width=800"
 excerpt: "Learn how to build modern web applications with Next.js 15 and the App Router. This comprehensive guide covers everything from setup to deployment."
