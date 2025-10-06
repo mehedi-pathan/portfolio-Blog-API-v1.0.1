@@ -1,7 +1,7 @@
 import fs from "fs/promises"
 import path from "path"
 
-const POSTS_DIRECTORY = path.join(process.cwd(), "public/content/posts")
+const POSTS_DIRECTORY = path.join(process.cwd(), "content/posts")
 
 export interface LocalFile {
   name: string
