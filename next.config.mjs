@@ -15,8 +15,6 @@ const nextConfig = {
     ],
     unoptimized: true,
   },
-  // Netlify-specific optimizations
-  output: 'standalone',
 }
 
 export default nextConfig
