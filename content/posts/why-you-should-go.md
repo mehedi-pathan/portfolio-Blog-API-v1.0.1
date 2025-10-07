@@ -6,7 +6,7 @@ coverImage: "/placeholder.svg?height=400&width=800"
 date: "2025-10-06"
 readTime: "7 min read"
 tags: ["web design", "website redesign", "ux", "frontend", "seo"]
-slug: "why-redesign-your-website"
+slug: "why-you-should-go"
 author: 
   name: "Mehedi Pathan"
   avatar: "/avatar-placeholder.svg"
